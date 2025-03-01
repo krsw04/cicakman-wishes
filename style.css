@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1b5e20; /* Dark Green */
+    color: white;
+    text-align: center;
+    overflow: hidden; /* Prevents scrolling issues */
+}
+
+
+.card {
+    background: linear-gradient(135deg, #2e7d32, #66bb6a); /* Elegant Green */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.mawas-container {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.mawas {
+    width: 100px;
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8)); /* Sparkle Effect */
+}
+
+.hells-kitchen {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 15px 0;
+    border-left: 4px solid #ffeb3b;
+    padding-left: 10px;
+}
+
+#hiddenMessage {
+    display: none;
+    font-size: 1rem;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    background: #ffeb3b; /* Twilight Sparkle Yellow */
+    color: #1b5e20;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #fff59d;
+}
